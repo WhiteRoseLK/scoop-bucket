@@ -1,37 +1,29 @@
 {
-  "version": "2.0.0",
-  "description": "An actively maintained fork and continuation of lazyssh",
-  "homepage": "https://github.com/WhiteRoseLK/neossh",
-  "license": "Apache-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Windows_x86_64.zip",
-      "bin": "neossh.exe",
-      "hash": "9d23c87b477befef15db00395827cee417893ada351f368b3a0a1f2ca7e6abd0"
-    },
-    "32bit": {
-      "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Windows_i386.zip",
-      "bin": "neossh.exe",
-      "hash": "8fd745e01007ac1bf947adc5f6820e612df92cc4262d2f228ff53d106cb7f49d"
-    },
-    "arm64": {
-      "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.0.0/neossh_Windows_arm64.zip",
-      "bin": "neossh.exe",
-      "hash": "5c8859c2126d784a807e65884502cdc57a897e355ed38807abd2496c008abfb7"
-    }
-  },
-  "checkver": "github",
-  "autoupdate": {
+    "version": "2.1.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v$version/neossh_Windows_x86_64.zip"
-      },
-      "32bit": {
-        "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v$version/neossh_Windows_i386.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v$version/neossh_Windows_arm64.zip"
-      }
-    }
-  }
+        "32bit": {
+            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.1.0/neossh_Windows_i386.zip",
+            "bin": [
+                "neossh.exe"
+            ],
+            "hash": "87c432560e4591b2ddef2d2504540d0b6e6c20d398efcc5d10ff43217b8befe0"
+        },
+        "64bit": {
+            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.1.0/neossh_Windows_x86_64.zip",
+            "bin": [
+                "neossh.exe"
+            ],
+            "hash": "1b29f35dd86f12bb0a219462d66cf7cf7a3a96f8613df501f1acc669aba2f8cd"
+        },
+        "arm64": {
+            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.1.0/neossh_Windows_arm64.zip",
+            "bin": [
+                "neossh.exe"
+            ],
+            "hash": "f62888ede821cc46755e4419b7d78d6460026eaeb5b76e8c8842ff871e51011f"
+        }
+    },
+    "homepage": "https://github.com/WhiteRoseLK/neossh",
+    "license": "Apache-2.0",
+    "description": "An actively maintained fork and continuation of lazyssh"
 }
