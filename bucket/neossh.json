@@ -1,26 +1,26 @@
 {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.1.0/neossh_Windows_i386.zip",
+            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.2.0/neossh_Windows_i386.zip",
             "bin": [
                 "neossh.exe"
             ],
-            "hash": "87c432560e4591b2ddef2d2504540d0b6e6c20d398efcc5d10ff43217b8befe0"
+            "hash": "db94f3858a3717c32d56bf419ba1f4860d696e011574ee7d39a6677be6d8cd98"
         },
         "64bit": {
-            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.1.0/neossh_Windows_x86_64.zip",
+            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.2.0/neossh_Windows_x86_64.zip",
             "bin": [
                 "neossh.exe"
             ],
-            "hash": "1b29f35dd86f12bb0a219462d66cf7cf7a3a96f8613df501f1acc669aba2f8cd"
+            "hash": "62789c50ff95111536eb3526cceb61f3a1b2600518606a484c48b039303d05b8"
         },
         "arm64": {
-            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.1.0/neossh_Windows_arm64.zip",
+            "url": "https://github.com/WhiteRoseLK/neossh/releases/download/v2.2.0/neossh_Windows_arm64.zip",
             "bin": [
                 "neossh.exe"
             ],
-            "hash": "f62888ede821cc46755e4419b7d78d6460026eaeb5b76e8c8842ff871e51011f"
+            "hash": "7e99b70d143c1eb8e2b4ba472662845fc59700f5cda28c083905a407b28434ac"
         }
     },
     "homepage": "https://github.com/WhiteRoseLK/neossh",
